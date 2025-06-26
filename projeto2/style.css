@@ -10,3 +10,8 @@ footer{
     position: fixed;
     width: auto;
 }
+
+footer p {
+    text-align: right;
+
+}
