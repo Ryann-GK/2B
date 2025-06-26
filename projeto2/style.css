@@ -7,4 +7,6 @@ footer{
     color: aliceblue;
     bottom: 0;
     text-align: right;
+    position: fixed;
+    width: auto;
 }
