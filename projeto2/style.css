@@ -76,6 +76,9 @@ footer p {
 .card__content__answer,
 .card__content__question {
     backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 .card__content__answer {
