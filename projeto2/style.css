@@ -43,6 +43,9 @@ footer p {
     margin: 1rem;
     background-color: var(--card-ront-color);
     height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 400ms ease-in-out;
+    
 }
 
 
