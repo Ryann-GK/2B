@@ -59,3 +59,8 @@ color: var(--text-color);
 font-weight: 500;
 
 }
+
+card__content__question p {
+color: var(--card-back-color);
+font-weight: 500;
+}
