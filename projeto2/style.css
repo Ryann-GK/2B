@@ -36,7 +36,7 @@ footer p {
 
 .card__content {
     margin: 1rem;
-    background-color: rgb(249, 4, 4);
+    background-color: var(--card-ront-color);
     height: 100%;
 }
 
