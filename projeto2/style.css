@@ -78,3 +78,6 @@ font-weight: 500;
 .card__content__question{
     backface-visibility: hidden;
 }
+.card__content__answer{
+    transform: rotateY(180deg);
+}
