@@ -57,7 +57,7 @@ footer p {
     background-color: aqua;
     position: absolute;
     border-radius: 0.6rem;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     backface-visibility: hidden;
 
 }
