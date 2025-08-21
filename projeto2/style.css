@@ -1,3 +1,10 @@
+
+:root{
+    --text-color:rgb(4, 3, 3);
+    --card-front-color:rgb(7, 46, 173);
+    --card-beck-color:rgb(247, 244, 244);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 body {
