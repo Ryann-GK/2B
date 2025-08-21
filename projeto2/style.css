@@ -45,7 +45,7 @@ footer p {
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 400ms ease-in-out;
-    
+
 }
 
 
@@ -59,6 +59,7 @@ background-color: aqua;
 position:absolute;
 border-radius: 0.6rem;
 font-size: 1.5rem;
+backface-visibility: hidden;
 
 }
 
