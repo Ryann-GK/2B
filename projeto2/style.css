@@ -46,6 +46,11 @@ footer p {
     transition: transform 400ms ease-in-out;
 
 }
+.card__content p {
+    margin-top: 2rem;
+    padding: 3rem;
+    margin-top: 4rem;
+}
 
 
 .card__content h3 {
