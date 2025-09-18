@@ -17,8 +17,8 @@ criaCartao (
 )    
 
 criaCartao (
-     'Futebol',
-     'O que é Penalti',
+     'carro',
+     'O que é ,
      'O Penalti e uma falta dentro da Grande Área'
 )
 
