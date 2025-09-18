@@ -5,9 +5,9 @@ function criaCartao (categoria, pergunta, resposta) {
     cartao.className = 'cartao' 
     cartao.innerHTML = `
     <div class="cartao__conteudo">
-        <h3>Futebol</h3>
+        <h3>${categoria}</h3>
         <div class="cartao__conteudo__pergunta">
-            <p>O que é Penalti</p>
+            <p>${categoria}</p>
         </div>
         <div class="cartao__conteudo__resposta">
             <p>O Penalti e uma falta dentro da Grande Área</p>
