@@ -18,8 +18,8 @@ criaCartao (
 
 criaCartao (
      'carro',
-     'O que é ,
-     'O Penalti e uma falta dentro da Grande Área'
+     'O que é Virabrequin' ,
+     ' É um eixo essencial no motor de um veículo'.
 )
 
 
