@@ -14,20 +14,14 @@ criaCartao (
      'Futebol',
      'O que é Penalti',
      'O Penalti e uma falta dentro da Grande Área'
-)    
-
-criaCartao (
-     'carro',
-     'O que é Virabrequin' ,
-     ' É um eixo essencial no motor de um veículo'.
-)
+) 
 
 
 
 criaCartao (
      'Futebol',
-     'O que é Penalti',
-     'O Penalti e uma falta dentro da Grande Área'
+     'O que é virabrequin',
+     'é um eixo essencial no motor de um veículo.'
 ) 
 
 
