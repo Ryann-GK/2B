@@ -19,7 +19,7 @@ criaCartao (
 
 
 criaCartao (
-     'Futebol',
+     'Mecânica',
      'O que é virabrequin',
      'é um eixo essencial no motor de um veículo.'
 ) 
@@ -38,13 +38,13 @@ criaCartao (
      )
 
 criaCartao (
-     'Futebol',
-     'O que é Penalti',
-     'O Penalti e uma falta dentro da Grande Área'
+     'Química',
+     'Quem foi o último imperador Romano do Ocidente',
+     'Rõmulo Augútulo'
      )
 
 criaCartao (
      'Futebol',
-     'O que é Penalti',
-     'O Penalti e uma falta dentro da Grande Área'
+     'Qual foi a principal causa da Revolução Francesa ',
+     'Crise econômica '
 )
