@@ -12,8 +12,8 @@ criaCartao (
 
 criaCartao (
      'Futebol',
-     'O que é Penalti',
-     'O Penalti e uma falta dentro da Grande Área'
+     'Quantas substituições cad time pode fazer em uma partida oficial',
+     'cinco'
 ) 
 
 
@@ -26,15 +26,15 @@ criaCartao (
 
 
 criaCartao (
-     'Futebol',
+     '',
      'O que é Penalti',
      'O Penalti e uma falta dentro da Grande Área'
      )
 
 criaCartao (
-     'Futebol',
-     'O que é Penalti',
-     'O Penalti e uma falta dentro da Grande Área'
+     'Programação ',
+     'Para que serve a tag <p> no HTML',
+     'Criar um Parágrafo'
      )
 
 criaCartao (
@@ -44,7 +44,7 @@ criaCartao (
      )
 
 criaCartao (
-     'Futebol',
+     'Historia',
      'Qual foi a principal causa da Revolução Francesa ',
      'Crise econômica '
 )
