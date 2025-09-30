@@ -9,8 +9,8 @@ function criaCartao (categoria, pergunta, resposta) {
         <div class="cartao__conteudo__pergunta">
             <p>${categoria}</p>
         </div>
-        <div class="cartao__conteudo__resposta">
-            <p>O Penalti e uma falta fora da Grande Área</p>
+        <div 
+            <p></p>
         </div>
     </div>
     `
