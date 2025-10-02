@@ -48,7 +48,8 @@ criaCartao (
      'Qual foi a principal causa da Revolução Francesa ',
      'Crise econômica '
 )
-(
+
+criaCartao (
      'Roblox',
      'O que é Anime Fighers',
      'É um jogo o roblox que se baseia em um simulador de lutadores onde o objetivo era ficar masi forte e chegar no ultimo mundo'
