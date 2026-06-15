@@ -10,7 +10,8 @@
     <nav>
         <a>href="#"Inicio</a> 
     </nav>
-    <main></main>
+    <main><h2>Descubra a verdade passando o mouse</h2></main>
+    <article></article>
 <footer></footer>
 </body>
 </html>
