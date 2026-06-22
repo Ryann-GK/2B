@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>  
+        <meta charset="UTF-8">
+        
+          <title>Meu cartão Digital</title>
+           <style> 
+    body{
+         font-family:Arial,sans-serif;
+           background-color: #dff1ff;
+        diplay:
+    
+    }    
