@@ -1,0 +1,87 @@
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;pt-BR&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;title&gt;Minha Página Interativa&lt;/title&gt;
+&lt;style&gt;
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(120deg, #ffb6c1, #add8e6);
+text-align: center;
+padding: 40px;.card {
+background: white;
+width: 500px;
+margin: auto;
+padding: 30px;
+border-radius: 20px;
+box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+h1 {
+color: #d63384;
+}
+img {
+width: 300px;
+border-radius: 15px;
+margin-top: 15px;
+}
+button {
+background: #d63384;
+color: white;
+border: none;
+padding: 12px 18px;
+margin: 8px;
+border-radius: 10px;
+cursor: pointer;
+font-size: 15px;
+}
+button:hover {
+background: #9b1c5a;
+}
+.escuro {
+background: #222;
+color: white;
+}
+.escuro .card {
+background: #333;
+}
+.escuro h1 {
+color: #ffb6c1;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;h1&gt;Minha Página Interativa&lt;/h1&gt;
+&lt;p&gt;Esta página foi criada no VS Code usando HTML, CSS e JavaScript.&lt;/p&gt;
+&lt;img src=&quot;https://picsum.photos/300/200&quot; alt=&quot;Imagem aleatória&quot;&gt;&lt;br&gt;&lt;br&gt;
+&lt;button onclick=&quot;modoEscuro()&quot;&gt;Modo Escuro&lt;/button&gt;
+&lt;button onclick=&quot;curtir()&quot;&gt;Curtir ❤️&lt;/button&gt;
+&lt;button onclick=&quot;mostrarCuriosidade()&quot;&gt;Curiosidade&lt;/button&gt;
+&lt;h2 id=&quot;curtidas&quot;&gt;Curtidas: 0&lt;/h2&gt;
+&lt;p id=&quot;curiosidade&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;script&gt;
+let numeroCurtidas = 0;
+function modoEscuro() {
+document.body.classList.toggle(&quot;escuro&quot;);
+}
+function curtir() {
+numeroCurtidas++;
+document.getElementById(&quot;curtidas&quot;).innerHTML = &quot;Curtidas:
+&quot; + numeroCurtidas;
+}
+function mostrarCuriosidade() {
+let curiosidades = [
+&quot;O HTML cria a estrutura da página.&quot;,
+&quot;O CSS deixa a página bonita.&quot;,
+&quot;O JavaScript faz a página funcionar.&quot;,
+&quot;O VS Code é muito usado por programadores.&quot;,
+&quot;Sites profissionais também usam HTML, CSS e JavaScript.&quot;
+];
+let numeroSorteado = Math.floor(Math.random() * curiosidades.length);
+document.getElementById(&quot;curiosidade&quot;).innerHTML = curiosidades[numero
+Sorteado];
+}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
