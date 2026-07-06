@@ -56,5 +56,33 @@
         <p>Esta pagina foi criada no VS Code usando HTML, CSS e JavaScript.</p>
         <img src="https://picsum.photos/300/200"alt="imagem aleatoria">
         <br><br>
+        <button onclick="modo escuro()">Modo Escuro</button>
+        <button onclick="curtir()">curtir❤️</button>
+        <button onclick="mostrarCuriosidade()">curiosidade</button>
+        <h2 id="curtidas">Curtidas: 0</h2>
+        <p id="curiosidade"></p>
     </div>
-</body>.
+    <script>
+        let numeroCurtidas =0;
+        function modoescuro(){
+        document.body.classList.toggle("escuro");
+        }
+        function curtir(){
+            numeroCurtidas++;
+document.getElementById("curtidas").innerHTML = "Curtidas: " + numeroCurtidas;
+}
+function mostrarCuriosidade() {
+            let curiosidade =[
+            "O HTML criar a estrutura da pagina.",
+            "O CSS deixa a pagina bonita.",
+            "O JavaScript faz a pagina funcionar.",
+            "O VS Code e muito usado por programadores.",
+            "Sites profissionais tambem usam HTML, CSS e JavaScript.",
+            ];
+            let numeroSorteado =Math.floor(Math.random()*curiosidade.lenght);
+
+            document.getElementByld("curiosidade").innerHTML =curiosidades[numero sorteado];
+            }
+    </script>
+    </body>
+    </html>
