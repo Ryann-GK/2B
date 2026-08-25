@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+header {
+    background-color: #ff7675;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #2d3436;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff7675;
+    padding-bottom: 10px;
+}
+
+/* Sistema de Grid para o Mural */
+.pet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+/* Cartão do Animal */
+.pet-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+}
+
+.pet-foto {
+    background-color: #dfe6e9;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #636e72;
+}
+
+.pet-info {
+    padding: 20px;
+}
+
+.pet-info h3 {
+    margin-bottom: 10px;
+    color: #2d3436;
+}
+
+.pet-info p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #636e72;
+}
+
+.status {
+    display: inline-block;
+    background-color: #d63031;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Formulário de Cadastro */
+.form-secao {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #2d3436;
+}
+
+form input, form select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+form button {
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #10ac84;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color #222e88
+}
+
+form button:hover {
+    background-color: #0ebd93;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #2d3436;
+    color: white;
+    margin-top: 50px;
+}
