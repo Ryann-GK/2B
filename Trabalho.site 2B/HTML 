@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontre Seu Pet - Animais Perdidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🐾 Encontre Seu Pet</h1>
+        <p>Ajude a reencontrar nossos melhores amigos</p>
+        <nav>
+            <a href="#galeria">Animais Perdidos</a> | 
+            <a href="#cadastrar">Cadastrar Pet Sumido</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção da Galeria de Animais -->
+        <section id="galeria">
+            <h2>Mural de Animais Procurados</h2>
+            <div class="pet-grid" id="petGrid">
+                
+                <!-- Card de Exemplo 1 -->
+                <div class="pet-card">
+                    <div class="pet-foto">🐶 Foto</div>
+                    <div class="pet-info">
+                        <h3>Bob (Cachorro)</h3>
+                        <p><strong>Visto por último:</strong> Bairro Centro, Rua das Flores</p>
+                        <p><strong>Data:</strong> 24/08/2026</p>
+                        <p><strong>Contato:</strong> (11) 99999-9999</p>
+                        <span class="status">Procura-se</span>
+                    </div>
+                </div>
+
+                <!-- Card de Exemplo 2 -->
+                <div class="pet-card">
+                    <div class="pet-foto">🐱 Foto</div>
+                    <div class="pet-info">
+                        <h3>Mel (Gata)</h3>
+                        <p><strong>Visto por último:</strong> Bairro Jardim Paulista</p>
+                        <p><strong>Data:</strong> 20/08/2026</p>
+                        <p><strong>Contato:</strong> (11) 88888-8888</p>
+                        <span class="status">Procura-se</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Seção de Cadastro -->
+        <section id="cadastrar" class="form-secao">
+            <h2>Cadastrar Animal Perdido</h2>
+            <form id="petForm">
+                <label for="nome">Nome do Pet:</label>
+                <input type="text" id="nome" required placeholder="Ex: Thor, Pipoca...">
+
+                <label for="especie">Espécie:</label>
+                <select id="especie">
+                    <option value="Cachorro">Cachorro</option>
+                    <option value="Gato">Gato</option>
+                    <option value="Outro">Outro</option>
+                </select>
+
+                <label for="local">Último Local Visto:</label>
+                <input type="text" id="local" required placeholder="Ex: Bairro, Ponto de referência">
+
+                <label for="contato">Telefone de Contato:</label>
+                <input type="tel" id="contato" required placeholder="Ex: (11) 99999-9999">
+
+                <button type="submit">Publicar no Mural</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Rede de Apoio aos Animais Perdidos. Vamos trazê-los para casa!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
